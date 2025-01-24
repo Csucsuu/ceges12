@@ -1,12 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>szecsi</title>
+    <title>Szerencsejáték Oldal</title>
+    <style>
+        /* Alap stílusok */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        
+        /* Fejléc */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        /* Menü stílusok */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Törzs stílusok */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .content img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .content h2 {
+            width: 100%;
+            text-align: center;
+            color: #333;
+        }
+
+        .content p {
+            width: 100%;
+            text-align: center;
+            color: #666;
+        }
+
+        /* Lábjegyzet */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>viragh</h1>
-    <p> haggyal mar szecsi</p>
+
+<header>
+    <h1>Szerencsejáték Világa</h1>
+    <p>Fedezd fel a legjobb játékokat és ajánlatokat!</p>
+</header>
+
+<nav>
+    <a href="#home">Kezdőlap</a>
+    <a href="#games">Játékok</a>
+    <a href="#about">Rólunk</a>
+    <a href="#contact">Kapcsolat</a>
+</nav>
+
+<div class="content">
+    <section id="home">
+        <h2>Üdvözöljük!</h2>
+        <p>Ismerd meg a szerencsejáték izgalmas világát, és próbáld ki szerencséd!</p>
+    </section>
+
+    <section id="games">
+        <h2>Játékok</h2>
+        <div>
+            <img src="https://via.placeholder.com/300x200?text=Slot+Game" alt="Slot Game">
+            <p>Szórakozz a legnépszerűbb online nyerőgépekkel!</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300x200?text=Poker" alt="Poker">
+            <p>Játssz pókerrel és szerezz nagy nyereményeket!</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300x200?text=Roulette" alt="Roulette">
+            <p>Próbáld ki a rulettet a legjobb kaszinókban!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Rólunk</h2>
+        <p>Mi vagyunk a legjobb szerencsejáték oldal, ahol mindent megtalálsz a kaszinójátékoktól kezdve a legfrissebb promóciókig!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <p>Lépj kapcsolatba velünk a legjobb ajánlatokért!</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Szerencsejáték Világa. Minden jog fenntartva.</p>
+</footer>
+
 </body>
 </html>
